@@ -98,4 +98,4 @@ Site para download do [Docker](https://docs.docker.com/get-docker/).
 
 **5. importar o projeto no IDE**
 
-Executar a classe `ContacorrenteApplication`.
+Executar a classe `KafkaconsumerApplication`.
