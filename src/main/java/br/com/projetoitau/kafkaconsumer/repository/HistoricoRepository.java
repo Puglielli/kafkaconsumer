@@ -12,6 +12,6 @@ import java.util.UUID;
 @Repository
 public interface HistoricoRepository extends CrudRepository<HistoricoVO, String> {
 
-    @Query(value = "select * from historico where id = (:id)")
+    @Query(value = "select * from historico where id = (:id) ALLOW FILTERING")
     List<HistoricoVO> getHistoricoById(@Param("id") UUID id);
 }
