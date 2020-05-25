@@ -27,12 +27,9 @@ public class KafkaConsumer {
         HistoricoVO historicoVO = mapper.readValue(obj, HistoricoVO.class);
 
         if (!historicoRepository.getHistoricoById(historicoVO.getId()).isEmpty()) {
-            return ;
+            return;
         }
 
         historicoRepository.save(historicoVO);
-
-        System.out.println("Historico do Producer: " + obj);
-        System.out.println("Historico do Consumer: " + historicoVO);
     }
 }
