@@ -8,7 +8,7 @@
 		<version>2.2.8.BUILD-SNAPSHOT</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>br.com.projetoitau.kafkaconsumer</groupId>
+	<groupId>br.com.projetoitau</groupId>
 	<artifactId>kafkaconsumer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>kafkaconsumer</name>
